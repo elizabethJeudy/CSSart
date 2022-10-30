@@ -82,12 +82,12 @@ body {
 
 .eyeLeft {
 	bottom: 75px;
-	left: 35px;
+	left: 40px;
 }
 
 .eyeRight {
 	bottom: 95px;
-	left: 85px;
+	left: 80px;
 }
 
 .eyeballLeft,
@@ -97,4 +97,15 @@ body {
 	height: 15px;
 	border-radius: 50%;
 	position: relative;
+}
+
+.nose {
+	width: 0;
+	height: 0;
+	border-top: 8px solid rgb(232, 136, 203);
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	position: relative;
+	bottom: 92px;
+	left: 64px;
 }
