@@ -1,3 +1,7 @@
+:root {
+	--primary-color: rgb(32, 29, 35);
+}
+
 body {
 	padding: 0;
 	margin: 0;
@@ -12,6 +16,7 @@ body {
 	bottom: 0;
 	left: 0;
 	right: 0;
+	z-index: -1;
 }
 
 .cat {
@@ -21,8 +26,47 @@ body {
 }
 
 .face {
-	background-color: rgba(11, 10, 12, 0.761);
+	background-color: var(--primary-color);
 	height: 90px;
 	width: 150px;
 	border-radius: 30px;
+}
+
+.earLeft,
+.earRight {
+	width: 0;
+	height: 0;
+	border-bottom: 50px solid var(--primary-color);
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	position: relative;
+	z-index: -1;
+}
+
+.earLeft {
+	bottom: 30px;
+	transform: rotate(-30deg);
+}
+
+.earRight {
+	bottom: 80px;
+	left: 115px;
+	transform: rotate(30deg);
+}
+
+.innerLeft {
+	width: 0;
+	height: 0;
+	border-bottom: 50px solid rgb(232, 136, 203);
+	border-left: 30px solid transparent;
+	right: 30px;
+	position: relative;
+}
+
+.innerRight {
+	width: 0;
+	height: 0;
+	border-bottom: 90px solid rgb(232, 136, 203);
+	border-right: 45px solid transparent;
+	position: relative;
 }
