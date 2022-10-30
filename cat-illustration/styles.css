@@ -28,7 +28,7 @@ body {
 .face {
 	background-color: var(--primary-color);
 	height: 90px;
-	width: 150px;
+	width: 140px;
 	border-radius: 30px;
 }
 
@@ -37,7 +37,7 @@ body {
 	width: 0;
 	height: 0;
 	border-bottom: 50px solid var(--primary-color);
-	border-left: 20px solid transparent;
+	border-left: 25px solid transparent;
 	border-right: 20px solid transparent;
 	position: relative;
 	z-index: -1;
@@ -50,7 +50,7 @@ body {
 
 .earRight {
 	bottom: 80px;
-	left: 115px;
+	left: 100px;
 	transform: rotate(30deg);
 }
 
@@ -66,8 +66,8 @@ body {
 .innerRight {
 	width: 0;
 	height: 0;
-	border-bottom: 90px solid rgb(232, 136, 203);
-	border-right: 45px solid transparent;
+	border-bottom: 70px solid rgb(232, 136, 203);
+	border-right: 30px solid transparent;
 	position: relative;
 }
 
@@ -82,7 +82,7 @@ body {
 
 .eyeLeft {
 	bottom: 75px;
-	left: 40px;
+	left: 35px;
 }
 
 .eyeRight {
