@@ -4,12 +4,25 @@ body {
 }
 .container {
 	height: 500px;
-	width: 350px;
-	background-color: rgb(194, 141, 244);
+	width: 450px;
+	background-color: rgb(206, 167, 242);
 	position: absolute;
 	margin: auto;
 	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
+}
+
+.cat {
+	position: relative;
+	top: 150px;
+	left: 150px;
+}
+
+.face {
+	background-color: rgba(11, 10, 12, 0.761);
+	height: 90px;
+	width: 150px;
+	border-radius: 30px;
 }
