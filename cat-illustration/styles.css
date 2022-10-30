@@ -156,3 +156,13 @@ body {
 	top: 110px;
 	left: 70px;
 }
+
+.tail {
+	background-color: var(--primary-color);
+	width: 100px;
+	height: 20px;
+	position: relative;
+	top: 80px;
+	left: 100px;
+	border-radius: 0 20px 20px 0;
+}
