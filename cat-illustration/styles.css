@@ -138,3 +138,21 @@ body {
 	bottom: 5px;
 	border-radius: 0 65px 0 0;
 }
+
+.pawLeft,
+.pawRight {
+	background-color: var(--primary-color);
+	height: 10px;
+	width: 22px;
+	position: relative;
+	border-radius: 0 0 10px 10px;
+}
+
+.pawLeft {
+	top: 120px;
+}
+
+.pawRight {
+	top: 110px;
+	left: 70px;
+}
