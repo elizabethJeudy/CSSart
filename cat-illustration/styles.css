@@ -70,3 +70,31 @@ body {
 	border-right: 45px solid transparent;
 	position: relative;
 }
+
+.eyeLeft,
+.eyeRight {
+	background-color: rgb(248, 177, 46);
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	position: relative;
+}
+
+.eyeLeft {
+	bottom: 75px;
+	left: 40px;
+}
+
+.eyeRight {
+	bottom: 95px;
+	left: 85px;
+}
+
+.eyeballLeft,
+.eyeballRight {
+	background-color: rgb(21, 20, 17);
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	position: relative;
+}
