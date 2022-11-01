@@ -113,7 +113,7 @@ body {
 }
 
 .eyeRight {
-	left: 10.8em;
+	left: 11em;
 }
 
 .eyeLeft:after,
@@ -121,7 +121,25 @@ body {
 	position: absolute;
 	content: "";
 	background-color: azure;
-	height: 0.6em;
-	width: 1em;
-	border-radius: 0 0 1em 1em;
+	height: 0.8em;
+	width: 1.25em;
+	border-radius: 0 0 1.5em 1.5em;
+	left: 0.4em;
+}
+
+.mouth {
+	position: absolute;
+	height: 1.5em;
+	width: 1.5em;
+	background-color: rgb(60, 57, 57);
+	border-radius: 50%;
+	left: 9em;
+	top: 1em;
+	animation: snoore 3s infinite;
+}
+
+@keyframes snoore {
+	50% {
+		transform: scale(1.3);
+	}
 }
