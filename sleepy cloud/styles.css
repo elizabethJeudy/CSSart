@@ -94,8 +94,34 @@ body {
 	position: absolute;
 	width: 2em;
 	height: 2em;
-	background-color: rgb(227, 158, 221);
+	background-color: rgba(227, 158, 221, 0.878);
 	border-radius: 50%;
 	left: 5.8em;
-	box-shadow: 6em 0 rgb(227, 158, 221);
+	box-shadow: 6em 0 rgb(227, 158, 221, 0.878);
+}
+.eyeLeft,
+.eyeRight {
+	position: absolute;
+	height: 1em;
+	width: 2em;
+	background-color: rgb(60, 57, 57);
+	border-radius: 0 0 1em 1em;
+}
+
+.eyeLeft {
+	left: 6.5em;
+}
+
+.eyeRight {
+	left: 10.8em;
+}
+
+.eyeLeft:after,
+.eyeRight:after {
+	position: absolute;
+	content: "";
+	background-color: azure;
+	height: 0.6em;
+	width: 1em;
+	border-radius: 0 0 1em 1em;
 }
