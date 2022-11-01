@@ -1,5 +1,6 @@
 :root {
 	--primary-color: rgb(220, 225, 225);
+	--secondary-color: rgb(88, 80, 80);
 }
 
 body {
@@ -52,4 +53,39 @@ body {
 	bottom: 3em;
 	right: 3em;
 	z-index: -1;
+}
+
+.moon {
+	background-color: rgb(116, 112, 112);
+	height: 10em;
+	width: 10em;
+	top: 6em;
+	left: 12em;
+	border-radius: 50%;
+	position: absolute;
+	overflow: hidden;
+	animation: spin-moon 5s infinite linear;
+	z-index: -2;
+}
+@keyframes spin-moon {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+/*displays craters*/
+.moon:before {
+	position: absolute;
+	content: "";
+	height: 1.5em;
+	width: 1.5em;
+	background-color: var(--secondary-color);
+	border-radius: 50%;
+	top: 3em;
+	box-shadow: 7em 4em 0 0.75em var(--secondary-color),
+		5em 5em 0 -0.5em var(--secondary-color),
+		6em -1em 0 -0.15em var(--secondary-color),
+		8em -0.5em 0 -0.5em var(--secondary-color),
+		9em 1em 0 -0.15em var(--secondary-color),
+		2em -3em 0 -0.2em var(--secondary-color);
 }
