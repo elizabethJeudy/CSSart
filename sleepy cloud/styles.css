@@ -89,3 +89,13 @@ body {
 		9em 1em 0 -0.15em var(--secondary-color),
 		2em -3em 0 -0.2em var(--secondary-color);
 }
+
+.blush {
+	position: absolute;
+	width: 2em;
+	height: 2em;
+	background-color: rgb(227, 158, 221);
+	border-radius: 50%;
+	left: 5.8em;
+	box-shadow: 6em 0 rgb(227, 158, 221);
+}
